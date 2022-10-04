@@ -36,9 +36,9 @@ def loop():
   #   print(a,b)
 
   coins = 30
-  while coins > 0:
+  while coins < 40 :
     print(f"I have {coins} coins")
-    coins = coins + 1
+    coins = coins - 1
     
   # For Loops Practice #1
   # Using For loops, greet all members of a class, printing "Hello" + their name.
